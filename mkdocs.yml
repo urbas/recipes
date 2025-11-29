@@ -1,0 +1,6 @@
+site_name: Recipes
+docs_dir: 'recipes'
+plugins:
+  - mermaid2
+nav:
+  - Home: index.md
