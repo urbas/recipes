@@ -2,9 +2,9 @@
 
 ## Sides
 
-- [Mum's potato with garlic](./mums-potato-with-garlic/RECIPE.md)
+- [Mum's potato with garlic](./mums-potato-with-garlic/index.md)
 
 ## Deserts
 
-- [Zamorček](./zamorcek/RECIPE.md)
-- [Oat Apple Crumble](./oat-apple-crumble/RECIPE.md)
+- [Zamorček](./zamorcek/index.md)
+- [Oat Apple Crumble](./oat-apple-crumble/index.md)

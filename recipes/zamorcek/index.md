@@ -41,9 +41,7 @@
     as well), pour batter, spread evenly.
 15. Bake 35 min at 165°C.
 
-# Work organisation
-
-## Praparation
+## Work organisation
 
 **Long ahead**:
 
