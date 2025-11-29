@@ -63,15 +63,15 @@
 graph TD
     Preheat[Preheat oven] --> Bake[Bake]
     Chop[Chop walnuts] --> AddWalnuts[Add walnuts to batter slowly]
-    Beat[Beat batter] --> AddWalnuts
+    MixBatter[Mix batter at highest power] --> AddWalnuts
     AddWalnuts --> AddFlour[Add flour to batter]
     Sift[Sift flour] --> AddFlour
     Separate --> Whip[Whip whites with salt]
-    Blend[Blend sugar] --> Beat
-    Separate[Separate eggs] --> Beat
-    SoftenButter[Soften butter] --> Beat
-    SoftenChoc[Soften chocolate] --> Beat
-    Vanilla[Vanilla extract] --> Beat
+    Blend[Blend sugar] --> MixBatter
+    Separate[Separate eggs] --> MixBatter
+    SoftenButter[Soften butter] --> MixBatter
+    SoftenChoc[Soften chocolate] --> MixBatter
+    Vanilla[Vanilla extract] --> MixBatter
     Whip --> AddSugar[Add sugar to whites slowly]
     Blend --> AddSugar
     AddSugar --> Fold[Fold whites gently into the batter]
