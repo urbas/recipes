@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: treefmt
+        entry: treefmt
+        language: system
+        name: treefmt
+        pass_filenames: false
+        require_serial: true

@@ -41,6 +41,7 @@
           packages = [
             nixfmt-rfc-style
             nodePackages.prettier
+            prek
             treefmt
           ];
           inputsFrom = [
