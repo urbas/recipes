@@ -83,6 +83,48 @@ flowchart TD
     class Preheat,Chop,Blend,Milk,SoftenButter,SoftenChoc,Separate,Sift,Vanilla inputClass;
 ```
 
+## Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant Oven
+    participant Mixer as Mixer Bowl
+    participant Bowl as Large Bowl
+    participant Tray
+
+    Note over Oven: Soften butter at 30°C
+    Note over Oven: Soften chocolate at 30°C
+
+    Note over Mixer: Chop 150g walnuts
+    Note over Mixer: Blend 250g sugar to powder
+    Note over Mixer: Sift 200g flour + 2 tsp baking powder
+    Note over Bowl: Separate 8-9 eggs<br/>whites here, yolks into mixer
+    Bowl->>Mixer: Add egg yolks
+
+    Oven->>Mixer: Add softened butter
+    Oven->>Mixer: Add softened chocolate
+    Note over Oven: Preheat to 165°C
+
+    Note over Mixer: Add 70% of sugar
+    Note over Mixer: Add 1.5 tsp vanilla extract
+    Note over Mixer: Beat at high speed until creamy
+
+    Note over Mixer: Set mixer to slow
+    Note over Mixer: Add flour mixture slowly
+    Note over Mixer: Add 4-6 tbsp milk
+    Note over Mixer: Add chopped walnuts
+
+    Note over Bowl: Whip egg whites
+    Note over Bowl: Add pinch of salt, whip
+    Note over Bowl: Add remaining 30% sugar slowly
+    Note over Bowl: Whip until stiff peaks
+
+    Bowl->>Mixer: Fold in egg whites gently
+
+    Mixer->>Tray: Pour batter, spread evenly
+    Tray->>Oven: Bake 35 min at 165°C
+```
+
 ## Original recipe
 
 ![Original recipe](photos/original-recipe.jpg)
