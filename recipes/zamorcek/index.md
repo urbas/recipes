@@ -90,39 +90,40 @@ sequenceDiagram
     participant Oven
     participant Mixer as Mixer Bowl
     participant Bowl as Large Bowl
-    participant Tray
 
     Note over Oven: Soften butter at 30°C
     Note over Oven: Soften chocolate at 30°C
 
-    Note over Mixer: Chop 150g walnuts
-    Note over Mixer: Blend 250g sugar to powder
-    Note over Mixer: Sift 200g flour + 2 tsp baking powder
-    Note over Bowl: Separate 8-9 eggs<br/>whites here, yolks into mixer
-    Bowl->>Mixer: Add egg yolks
+    Note over Bowl,Mixer: Chop 150g walnuts
+    Note over Bowl,Mixer: Blend 250g sugar to powder
+    Note over Bowl,Mixer: Sift 200g flour + 2 tsp baking powder
+    Note over Bowl,Mixer: Separate 8-9 egg yolks from whites
+    Mixer->>Mixer: Add egg yolks
+    Bowl->>Bowl: Add egg whites
 
     Oven->>Mixer: Add softened butter
     Oven->>Mixer: Add softened chocolate
     Note over Oven: Preheat to 165°C
 
-    Note over Mixer: Add 70% of sugar
-    Note over Mixer: Add 1.5 tsp vanilla extract
+    Mixer->>Mixer: Add 70% of sugar
+    Mixer->>Mixer: Add 1.5 tsp vanilla extract
     Note over Mixer: Beat at high speed until creamy
 
     Note over Mixer: Set mixer to slow
-    Note over Mixer: Add flour mixture slowly
-    Note over Mixer: Add 4-6 tbsp milk
-    Note over Mixer: Add chopped walnuts
+    Mixer->>Mixer: Add flour mixture slowly
+    Mixer->>Mixer: Add 4-6 tbsp milk
+    Mixer->>Mixer: Add chopped walnuts
 
+    Bowl->>Bowl: Add pinch of salt
     Note over Bowl: Whip egg whites
-    Note over Bowl: Add pinch of salt, whip
-    Note over Bowl: Add remaining 30% sugar slowly
+    Bowl->>Bowl: Add remaining 30% sugar slowly
     Note over Bowl: Whip until stiff peaks
+    Note over Oven: Line tray (cut into<br/>corners to line walls)
 
     Bowl->>Mixer: Fold in egg whites gently
 
-    Mixer->>Tray: Pour batter, spread evenly
-    Tray->>Oven: Bake 35 min at 165°C
+    Mixer->>Oven: Pour batter into tray<br/>spread evenly
+    Note over Oven: Bake 35 min at 165°C
 ```
 
 ## Original recipe
