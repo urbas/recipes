@@ -57,33 +57,7 @@
 - 1 tray with baking paper nicely lined even on walls (cut into corners
   diagonally to bend along walls nicely)
 
-## Flowchart
-
-```mermaid
-flowchart TD
-    SoftenButter[Soften 250g butter] --> MixBatter
-    Chop[Chop 150g walnuts] --> AddWalnuts[Add walnuts to batter slowly]
-    Preheat[Preheat oven to 165°C] --> Bake[Bake for 35 min at 165°C]
-    MixBatter[Mixer bowl: Mix batter at highest power] -->|After paste shiny, set mixer to slow| AddWalnuts
-    Milk[4 to 6 tablespoons of milk] --> AddFlour
-    AddWalnuts --> AddFlour[Add flour and milk to batter slowly]
-    Sift[Sift 200g flour with 2 tsp baking powder] --> AddFlour
-    Separate[Separate 8-9 eggs] -- Egg whites --> Whip[Large bowl: Whip whites with pinch of salt]
-    Blend[Blend 250g sugar to powder] -->|70%| MixBatter
-    Separate --->|Yolks| MixBatter
-    SoftenChoc[Soften 150g chocolate] --> MixBatter
-    Vanilla[Add 1.5 tsp vanilla extract] --> MixBatter
-    Whip --> AddSugar[Add 1/4-1/3 sugar to whites slowly]
-    Blend -->|30%| AddSugar
-    AddSugar --> Fold[Fold whites gently, large-spoonful at a time into the batter]
-    AddFlour --> Fold
-    Fold --> PourBatter[Pour batter into tray]
-    PourBatter --> Bake
-    classDef inputClass stroke:#00ff00,stroke-width:4px;
-    class Preheat,Chop,Blend,Milk,SoftenButter,SoftenChoc,Separate,Sift,Vanilla inputClass;
-```
-
-## Sequence Diagram
+## Diagram
 
 ```mermaid
 sequenceDiagram
