@@ -8,4 +8,5 @@
 ## Desserts
 
 - [Oat Apple Crumble](./oat-apple-crumble/index.md)
+- [Štrudl](./strudl/index.md)
 - [Zamorček](./zamorcek/index.md)

@@ -1,6 +1,10 @@
 site_name: Recipes
 docs_dir: 'recipes'
+exclude_docs: |
+  **/notes.md
 plugins:
   - mermaid2
+hooks:
+  - d2_hook.py
 nav:
   - Home: index.md

@@ -17,7 +17,10 @@
           pname = "recipes";
           version = "0.0.0";
           src = self;
-          nativeBuildInputs = [ pyDevEnv ];
+          nativeBuildInputs = [
+            pyDevEnv
+            d2
+          ];
           buildPhase = ''
             mkdocs build
           '';
@@ -39,9 +42,13 @@
         packages.default = pkg;
         devShells.default = mkShell {
           packages = [
-            nixfmt-rfc-style
-            nodePackages.prettier
+            d2
+            ffmpeg
+            imagemagick
+            nixd
+            nixfmt
             prek
+            prettier
             treefmt
           ];
           inputsFrom = [
