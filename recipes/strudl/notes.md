@@ -3,6 +3,24 @@
 Running log of changes, adaptations, and improvements made each time the
 štrudl is baked.
 
+## 2026-09-08
+
+- Made two separate strudls, both doubled (2x every ingredient: 1kg flour,
+  ~4kg apples, etc.) — one with apples from Ben (a coworker), one with
+  Granny Smith apples (~2100g). To be seen what variety Ben's apples are.
+
+- Sugar: used more sugar in Ben's strudel, and a bit less than last time
+  in the Granny Smith strudel. Both turned out alright.
+
+- Stretching: the dough for the second strudel (made from dough that had
+  rested longer) was noticeably easier to stretch and tore less than the
+  first. Suggests longer resting time makes the dough more stretchable —
+  worth testing deliberately next time.
+
+- Baking: noticed browning might be better going a bit above 200°C for the
+  first 15 minutes, instead of exactly 200°C. To be tried deliberately next
+  time.
+
 ## 2026-07-29
 
 - Water temperature: forgot to use lukewarm water — used whatever came out
